@@ -30,6 +30,9 @@
         "orchestra/testbench": "^6.17|^7.0|^8.0",
         "phpunit/phpunit": "^9.3"
     },
+    "replace": {
+        "laravel/scout": "9.0.0"
+    },
     "autoload": {
         "psr-4": {
             "Laravel\\Scout\\": "src/"
